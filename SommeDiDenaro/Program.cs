@@ -25,10 +25,11 @@ namespace SommeDiDenaro
             {
                 imposta = (valore * 24) / 100;
             }
-            else if (valore > 35000)
+            else 
             {
                 imposta = (valore * 36) / 100;
             }
+            Console.WriteLine($"la somma di denaro totale è {imposta}");
             Console.ReadLine();
         }
     }
